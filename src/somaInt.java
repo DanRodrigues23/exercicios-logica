@@ -11,14 +11,16 @@ public class somaInt {
         System.out.println("Defina um numero para B: ");
         int B = scanner.nextInt();
 
-        int soma = A + B;
+        int C;
 
         if (A == B ){
-            System.out.println("Os numeros são iguais, portanto a soma e: " + soma);
+            C = A + B;
 
         }else{
-            System.out.println("Os numeros são diferentes. ");
+            C = A * B;
+
         }
+        System.out.println("O valor de C e: " + C);
 
         scanner.close();
     }
